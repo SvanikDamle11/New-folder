@@ -1,0 +1,14 @@
+/* class selector */
+.heading3{
+  color: blue; 
+  background-color: beige; 
+}
+/* group selector */
+p,h4 {
+    background-color: blue;
+    color: white;
+}
+/* Universal selector */
+* {
+    background-color: pink;
+}
