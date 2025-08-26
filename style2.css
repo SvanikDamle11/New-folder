@@ -1,0 +1,14 @@
+#h1{
+    font-family: "Bodoni Moda", serif;
+}
+#h12{
+font-family: "Russo One", sans-serif;
+}
+.p1{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.p2{
+    text-decoration: overline;
+    text-transform: uppercase;
+}

@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(43, 117, 92);
+    text-align: center;
+}
+.box{
+    border:2px solid rebeccapurple;
+    padding:30px;
+    width:30%;
+    margin: 40px;
+    box-shadow: 5px 5px rgb(114, 152, 223);
+}
+.box1{
+    border: 2px dotted rebeccapurple;
+    padding: 60px;
+    width: 50%;
+    margin: 30px;
+}
+.box2 {
+    border: 2px dashed rebeccapurple;
+    padding: 68px;
+    width: 69%;
+    margin: 70px;
+}
