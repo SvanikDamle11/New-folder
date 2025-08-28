@@ -1,0 +1,39 @@
+.box1{
+    border:5px solid rebeccapurple;
+    position: static;
+    width: 50%;
+    left: 50px;
+    top: 100px;
+}
+
+.box2{
+    border: 5px solid rebeccapurple;
+    position: relative;
+    width: 50%;
+    left: 50px;
+    top: 100px;
+}
+
+.box3 {
+    border: 5px solid rebeccapurple;
+    position: absolute;
+    width: 50%;
+    left: 50px;
+    top: 100px;
+}
+
+.box4 {
+    border: 5px solid rebeccapurple;
+    position: fixed;
+    width: 50%;
+    left: 50px;
+    top: -1px;
+}
+
+.box5 {
+    border: 5px solid rebeccapurple;
+    position: sticky;
+    width: 50%;
+    left: 50px;
+    top: 100px;
+}

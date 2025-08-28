@@ -1,0 +1,8 @@
+.div{
+    position: relative;
+    width: 100px;
+    padding: 20px;
+    background-color: #999999;
+    color: white;
+    border: 5px blue solid
+}
