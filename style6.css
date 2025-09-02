@@ -1,0 +1,15 @@
+.flex-container {
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(17, 77, 137);
+}
+
+.flex-container>div {
+    background-color: rgb(15, 189, 131);
+    width: 100px;
+    line-height: 75px; 
+    margin: 10px;
+    text-align: center; 
+    font-size: 30px;
+}
