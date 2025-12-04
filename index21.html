@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: #deb878;
+        }
+    
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            text-transform: capitalize;}
+            .carousel-container{
+            display: flex;
+            justify-content: center;   
+            align-items: center; 
+            }
+    </style>
+</head>
+<body>
+    <h1>My Favorite Places</h1>
+    <div class="carousel-container">
+        <img class="myslides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-h_2RzR6qwoacLAgKveOk4dmBvQ1RigFXbvy5C8giepuR4kOCJ7bzzP4xkH_OMIwRTmI&usqp=CAU" height="300" width="300">
+        <img class="myslides" src="https://preview.redd.it/who-else-watches-kpdh-movie-reacts-in-yt-v0-126tyql3uobf1.jpeg?width=640&crop=smart&auto=webp&s=a8beb8a494531b76a1ea624d5817f15ba4e24f9a" height="300" width="300">
+        <img class="myslides" src="https://preview.redd.it/kpdh-theme-park-v0-r407afku6hmf1.jpeg?auto=webp&s=1e8d3e4f7cee4631dc8e84c7cde15f22fba429ca" height="300" width="300">
+    </div>
+    <script>
+        var index = 0;
+        function carousel(){
+        var i;
+        var x = document.getElementsByClassName("myslides");
+        for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+
+            }
+
+            index++;
+
+            if (index > x.length) {
+
+                index = 1;
+
+            }
+
+            x[index - 1].style.display = "block";
+
+            setTimeout(carousel, 2000);}
+
+            carousel();
+    </script>
+    
+</body>
+</html>
