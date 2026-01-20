@@ -1,0 +1,12 @@
+import turtle
+sc = turtle.Screen()
+sc.bgcolor("orange")
+sc.setup(400,400)
+turtle.title("Welcome to Turtle Window")
+
+t= turtle.Turtle()
+
+for i in range(1,73):
+ t.forward(5)
+ t.right(5)
+turtle.done()
