@@ -14,3 +14,6 @@ print(x//y)
 name1 = "Svanik"
 name2 = " Damle"
 print(name1 + name2)
+name3 = "Why is python "
+name4 = "good ?"
+print(name3 + name4)
