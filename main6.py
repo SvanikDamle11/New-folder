@@ -10,9 +10,6 @@ for i in range(1,73):
  t.forward(5)
  t.right(5)
 
-
-
-
 t.left(180)
 t.forward(5)
 t.left(5)
@@ -37,8 +34,7 @@ t.left(5)
 t.forward(5)
 t.left(5)
 t.forward(5)
-t.left(5)
-
+t.left(5) 
 t.forward(5)
 t.left(5)
 t.forward(5)
@@ -129,7 +125,6 @@ t.forward(5)
 t.left(5)
 t.forward(5)
 t.left(5)
-
 t.forward(5)
 t.left(5)
 t.forward(5)
@@ -140,7 +135,6 @@ t.forward(5)
 t.left(5)
 t.forward(5)
 t.left(5)
-
 t.forward(5)
 t.left(5)
 t.forward(5)
