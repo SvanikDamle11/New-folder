@@ -29,7 +29,7 @@ class face:
         left(turn)
         forward(self.size / 2)
         pendown()
-        dot(self.size / 10)
+        dot(self.size / 5)
         self.reset()
 
     def drawMouth(self):
